@@ -15,5 +15,11 @@ yarn serve
 yarn build
 ```
 
+### Loading data/db.json
+```
+npm install json-server --saved
+npx json-server --watch data/db.json
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
